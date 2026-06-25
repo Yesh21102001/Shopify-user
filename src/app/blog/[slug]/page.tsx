@@ -16,7 +16,7 @@ interface Post {
   author: string
   image?: { url: string; alt: string }
   tags: string[]
-  publishedAt: string
+  publishedAt?: string
   createdAt: string
 }
 
